@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 294614 */
+  src: url('//at.alicdn.com/t/font_7us6xu9toml8r529.eot');
+  src: url('//at.alicdn.com/t/font_7us6xu9toml8r529.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_7us6xu9toml8r529.woff') format('woff'),
+  url('//at.alicdn.com/t/font_7us6xu9toml8r529.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_7us6xu9toml8r529.svg#iconfont') format('svg');
+}
+.iconfont{ font-family:"iconfont" !important; font-size:16px; font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale;}
+
+.icon-select{
+    color: red;
+}
+.icon-home:after{content: "\e604";    font-size: 0.5rem;} //首页
+.icon-myinfo:after{content: "\e614";    font-size: 0.5rem;} //我的
+.icon-fenlei:after{content: "\e6ee";    font-size: 0.5rem;} //分类
+.icon-shopcar:after{content: "\e607";    font-size: 0.5rem;} //购物车

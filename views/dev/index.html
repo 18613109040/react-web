@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<meta name="format-detection" content="telephone=no, email=no">
+
+		<meta name="renderer" content="webkit">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="HandheldFriendly" content="true">
+
+		<meta name="MobileOptimized" content="320">
+
+		<meta name="screen-orientation" content="portrait">
+
+		<meta name="x5-orientation" content="portrait">
+
+		<meta name="full-screen" content="yes">
+
+		<meta name="x5-fullscreen" content="true">
+
+		<meta name="browsermode" content="application">
+
+		<meta name="x5-page-mode" content="app">
+
+		<meta name="msapplication-tap-highlight" content="no">
+
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="description" content="">
+
+		<title>土豆泥商城</title>
+		<link href="https://unpkg.com/antd-mobile/dist/antd-mobile.min.css" />
+		<link href="/css/styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="root">
+			<div className="authentication-sucess">
+				<div className="pub-identity-con">
+					<div className="pub-type">
+						<p className="tips">如果你的店铺包含图书/杂志/报纸等商品,请提交以下资料:</p>
+						<p>个人: 身份证的照片、出版物经营许可证</p>
+						<p>企业: 企业营业执照、出版物经营许可证</p>
+						<Link to='/publication/detail' className="submit-btn">提交资料</Link>
+					</div>
+				</div>
+				<div className="common-problems"><span>常见问题Q&amp;A</span>
+					<div className="problems-list"><i></i>
+						<p>我在2016年1月31日之后提供了资质证明并且通过审核了,我还能进入中心市场么?</p><span>可以。1月31日只是规定生效时间,并不是截止时间。只要您具备资质通过审核,就可以被中心市场收录。</span>
+					</div>
+					<div className="problems-list"><i></i>
+						<p>作家本人开微店卖自己的书是否需要资质?</p><span>需要。作家开微店卖书时的身份是图书出版物销售者,也需要出版物资质。</span>
+					</div>
+					<div className="problems-list"><i></i>
+						<p>我是个人微店,但我有企业营业执照和《出版物经营许可证》,是否符合要求?</p><span>如果您具有企业营业执照和《出版物经营许可证》,请您升级企业微店后提交资质。<br/>个人微店不可提交企业资质。</span>
+					</div>
+					<div className="problems-list"><i></i>
+						<p>我是个人微店店主,我有个体工商户执照和《出版物经营许可证》,但是所有人是我母亲,可以通过审核么?</p><span>不可以。<br/>微店店主与证件主体是直系亲属关系、夫妻关系也不可以。<br/>个体工商户执照、《出版物经营许可证》的证件主体与微店注册人要一致。</span>
+					</div>
+					<div className="problems-list"><i></i>
+						<p>我还有其他问题可以联系谁?</p><span>可咨询微店官方客服:400-135-6789</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://os.alipayobjects.com/rmsportal/lvEQQbNgHsIxVfXLkmuX.js"></script>
+		<script>
+			window.REDUX_STATE = <%- JSON.stringify(state) %>
+		</script>
+		<script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+		<script type="text/javascript" src="/vendor.js"></script>
+		<script type="text/javascript" src="/bundle.js"></script>
+	</body>
+
+</html>
